@@ -1,0 +1,133 @@
+
+.recipe__container{
+    display: flex;
+    flex: row;
+    margin-top:40px;
+    height:fit-content;
+    overflow-y: auto;
+
+}
+
+@media screen and (max-width: 600px) {
+    .recipe__container{
+        display: flex;
+        flex-flow: row wrap;
+        
+    
+        margin-top:40px;
+        align-items: center;
+    
+    }
+    .recipe__ingredients{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+ 
+    }
+    .recipe__instruction{
+        display: flex;
+        margin-left: auto;
+        margin-right:auto ;
+        background-color:white ;
+    
+        max-width: 800px;
+        height: fit-content;
+        margin-top: 20px;
+    
+        border:black 1px solid;
+        width:80%;
+    
+    
+    }
+    
+     
+    
+    
+}
+.recipe__ingredients{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+
+
+ 
+
+
+}
+.recipe__header{
+    background-color: var(--text);
+    width:100%;
+    margin-top:20px;
+
+    bottom: 0px;
+
+    
+    
+}
+.recipe__amount{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width:100%;
+    height:fit-content;
+
+    
+
+}
+
+.recipe__button{
+    margin: 3%;
+}
+.recipe__selectall{
+    width:80%;
+
+
+    border-bottom: 2px solid rgb(179, 172, 172);
+    border-top:2px solid rgb(255, 246, 246);
+    border-left: 2px solid rgb(218, 211, 211); 
+    border-right: 2px solid rgb(218, 211, 211); 
+    
+}
+.recipe__instruction{
+    background-color:white ;
+
+    max-width: 800px;
+    height: fit-content;
+    margin-top: 20px;
+
+    border:black 1px solid;
+    width:100%;
+
+
+}
+.recipe__list{
+    background-color: rgb(209, 209, 200);
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20px;
+
+    align-items: center;
+    width:100%;
+
+
+
+
+
+}
+
+
+
+.recipe__servings{
+    background-color: var(--text);
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.recipe__image{
+    width:50%;
+    height:100%;
+    margin-bottom: 20px;
+    
+}

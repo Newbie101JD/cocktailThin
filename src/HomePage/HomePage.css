@@ -1,0 +1,24 @@
+.home__container{
+    width:100vw;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+    
+}
+
+
+
+
+.home__body{ 
+
+    width:90%;
+    min-width: 100px;
+
+
+
+}

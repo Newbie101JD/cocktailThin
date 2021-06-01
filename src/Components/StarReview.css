@@ -1,0 +1,23 @@
+.star__container{
+    display: flex;
+    flex-direction: row;
+    border:2px solid black;
+    font:x-large;
+    width:300px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.shadow__animation{
+    box-shadow: 2px 2px 2px 2px  white;
+}
+
+.star__active{
+
+    border-radius: 100%;
+
+}
+
+
+
+
